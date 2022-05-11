@@ -1,0 +1,18 @@
+/*
+selector {
+    propiedad: valor;
+}
+*/
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: blue;
+}

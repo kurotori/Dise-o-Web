@@ -1,0 +1,25 @@
+body{
+    cursor: ;
+}
+a{
+    font-family: Helvetica;
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+    
+}
+
+a:active{
+    background-color: green;
+    color: white;  
+    font-size: xx-large;
+}
+
+a:visited{
+    
+}
