@@ -1,0 +1,9 @@
+.caja{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    border: solid 2px black;
+    float: left;
+    list-style-type: none;
+}

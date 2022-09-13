@@ -1,0 +1,33 @@
+.caja{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    margin-top: 5px;
+}
+
+.ancho{
+    position: sticky;
+    width: 500px;
+    height: 300px;
+    border: solid red 2px;
+    overflow: scroll;
+}
+
+#segundo{
+    position: relative;
+    float: left;
+    left: 250px;
+}
+
+#otro{
+    position: sticky;
+    top: 20px;
+    left: 550px;
+}
+
+
+
+#segundo:hover{
+    background-color: red;
+}
