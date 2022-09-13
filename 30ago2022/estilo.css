@@ -27,5 +27,15 @@ html,body{
 }
 
 .item .imagen{
-    
+    position: relative;
+    float:left;
+    height: 70px;
+    width: 70px;
+}
+
+.item .descripcion{
+    position: relative;
+    float: left;
+    height: 70px;
+    width: calc(100% - 70px);
 }
