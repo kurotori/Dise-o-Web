@@ -38,4 +38,5 @@ html,body{
     float: left;
     height: 70px;
     width: calc(100% - 70px);
+    overflow: hidden;
 }
