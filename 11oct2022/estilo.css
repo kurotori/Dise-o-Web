@@ -21,11 +21,51 @@ html,body{
     left: 5%;
     background-color: blue;
     margin-bottom: 5%;
+    transition: all 500ms;
+}
+
+.articulo:hover{
+    height:75%;
 }
 
 .articulo .encabezado{
     position: relative;
     width: 100%;
-    height: 16.66%;
+    height: calc(100% / 6);
     border-bottom: solid white 1px;
+}
+
+.articulo .encabezado .lateral{
+    position: relative;
+    height: 100%;
+    width: 10%;
+    background-color: yellow;
+    float: left;
+}
+
+.articulo .encabezado .titulo{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    background-color: green;
+    float: left;
+}
+
+.articulo .encabezado .fecha{
+    background-color: red;
+    text-align: right;
+}
+
+.articulo .texto{
+    position:relative;
+    width: 100%;
+    height: calc(100% / 6 * 4);
+    background-color: orange;
+}
+
+.articulo .pie{
+    position:relative;
+    width: 100%;
+    height: calc(100% / 6);
+    background-color: brown;
 }
